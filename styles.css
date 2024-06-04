@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: background-image 0.3s ease;
+    background-size: cover;
+    background-position: center;
+}
+
+.section1 {
+    background-image: url('image/picture1.jpg');
+}
+
+.section2 {
+    background-image: url('image/picture2.jpg');
+}
+
+.section3 {
+    background-image: url('image/picture3.jpg');
+}
+
+.section4 {
+    background-image: url('image/picture4.jpg');
+}
+
+.section1:hover {
+    background-image: url('image/picture1_hover.jpg');
+}
+
+.section2:hover {
+    background-image: url('image/picture2_hover.jpg');
+}
+
+.section3:hover {
+    background-image: url('image/picture3_hover.jpg');
+}
+
+.section4:hover {
+    background-image: url('image/picture4_hover.jpg');
+}
